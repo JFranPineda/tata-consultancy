@@ -1,5 +1,4 @@
-# tata-consultancy
-Cotizador Seguro de Salud
+# NAME: Tata-Consultancy Project: Cotizador Rimac Seguros
 
 # Chanllenge accepted!
 
@@ -26,7 +25,7 @@ Cotizador Seguro de Salud
 - Clone the repository in your local directory.
 - Run npm install on your git bash console.
 - Run the npm run dev command to build and compile the project.
-- Go to "localhost: 1234 /" in your web browser (Chrome or Firefox)
+- Go to "localhost:1234/" in your web browser (Chrome or Firefox)
 - Enjoy the application!
 
 

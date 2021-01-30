@@ -1,0 +1,40 @@
+.form-login__form__grid__item__title{
+    margin-bottom: 40px;
+    color: #a7abbe;
+}
+.form-login__form__grid__item_margin-bottom-20{
+    margin-bottom: 20px;
+}
+.form-login__form__grid__item_margin-bottom-30{
+    margin-bottom: 30px;
+}
+.form-login__form__grid__item_margin-bottom-70{
+    margin-bottom: 70px;
+}
+.form-login__form__grid__item__label{
+    margin-bottom: 15px;
+    display: block;
+}
+.form-login__form__grid__item__icon{
+    margin-left:8px;
+    font-size: .6rem;
+}
+.form-login__form__grid__item__icon_color_gray{
+    color: #a7abbe!important;
+}
+.form-login__form__grid__item__icon_color_gray:hover{
+    color: #ffffff!important;
+}
+.form-login__form__grid__item_justify-content-end{
+    justify-content: flex-end;
+    display: flex;
+}
+.form-login__header__grid__item__title_font-size-2{
+    font-size: 2rem;
+}
+.form-login__header__grid__item__message_margin-top-20{
+    margin-top: 10px;
+}
+.form-login__header__grid__item{
+    padding-left: 0px;
+}

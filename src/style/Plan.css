@@ -1,0 +1,223 @@
+.form-login__form__grid_justify-content-space-between{
+    justify-content: space-between;
+    display: flex;
+}
+.customized-card{
+    width: 23%;
+}
+@media (max-width: 1000px) {
+    .customized-card{
+        width: 48%;
+        margin-bottom: 10px;
+    }
+}
+.customized-card__card{
+    border-radius: 12px!important;
+}
+
+.customized-card__card_active{
+    border: 2px solid #83cc5e!important;
+}
+
+.customized-card__card__card-content__plan{
+    font-size: 0.7rem!important;
+    font-weight: 700!important;
+}
+.customized-card__card__card-content__mode{
+    font-weight: 700!important;
+    margin-bottom: 12px;
+    font-size: 0.7rem!important;
+}
+.customized-card__card__card-content__price{
+    display: flex;
+}
+.customized-card__card__card-content__price__coin{
+    padding-bottom: 1rem;
+    font-size: 0.7rem!important;
+}
+.customized-card__card__card-content__price__value{
+    font-weight: 400!important;
+    font-size: 1.7rem!important;
+}
+.customized-card__card_position-relative{
+    position: relative
+}
+.position-absolute{
+    position: absolute;
+}
+.right-0{
+    right: 0;
+}
+.form-login__header__grid__item__title{
+    font-size: 1.3rem;
+    color: #9ea1ad;
+}
+
+.form-login__header__grid__item__title-blue{
+    color: #3b87ee;
+    font-weight: 900;
+    margin-left: 8px;
+}
+.form-login__services{
+    margin-top: 40px;
+}
+.form-login__services__grid{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.form-login__services__grid__item{
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+}
+.form-login__services__grid__item__label{
+    display: block;
+    font-size: 1rem;
+    color: #9ea1ad;
+    margin-top: 10px;
+}
+.form-login__services__grid__item__label_font-size-1{
+    font-size: 1rem;
+}
+.form-login__services__grid__item__label-blue{
+    color: #3b87ee;
+    font-weight: 700;
+}
+.heading{
+    font-size: 15px!important;
+    font-weight: 700!important;
+    color: #9ea1ad;
+}
+.form-login__footer__grid__item_margin-bottom-15{
+    margin-bottom: 15px;
+}
+.form-login__footer__grid__item_justify-content-end{
+    justify-content: flex-end;
+    display: flex;
+    line-height: 2rem;
+}
+
+.form-login__footer{
+    margin-top: 40px;
+}
+.form-login__footer__grid{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.form-login__footer__grid__item{
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+}
+.form-login__footer__grid__item__link{
+    text-decoration: unset;
+    font-size: 0.7rem;
+    color: #2f80ed;
+}
+.form-login__footer__grid__item__link{
+    display: block;
+}
+.list-item_active{
+    color: #000000!important;
+    font-size: 1.5rem!important;
+    text-decoration: unset!important;
+}
+.list-item{
+    text-decoration: line-through;
+    color: #9ea1ad;
+}
+.list-item span{
+    font-size: 0.9rem!important;
+    color: #9ea1ad;
+}
+.list-item_active span{
+    font-size: 1.2rem!important;
+    color: #000000;
+}
+.list-item__icon{
+    font-size: 1rem!important;
+}
+.list-item__icon_blue{
+    color: #2f80ed!important;
+}
+
+.customized-benefits{
+    margin-top: 60px;
+    border: 1.5px solid #f0f2fa;
+    border-radius: 15px;
+}
+.customized-benefits__grid{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+.customized-benefits__grid__item{
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+figure img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.divider{
+
+}
+.divider_margin-top-30{
+    margin-top: 30px!important;
+}
+.form-login__benefits{
+
+}
+.customized-benefits__item{
+
+}
+.customized-benefits__item__coverage{
+        
+}
+.customized-benefits__item__coverage_padding-left-40{
+        padding-left: 40px;
+}
+.customized-benefits__item__coverage span{
+    display:flex!important;
+    width: 100%!important;
+}
+.customized-benefits__item__coverage__text{
+
+}
+.customized-benefits__item__coverage__plan{
+
+}
+.customized-benefits__item__coverage__amount{
+    font-size: 2rem!important;
+    font-weight: 700!important;
+}
+.customized-benefits_overflow-hidden{
+    overflow: hidden;
+}
+.customized-benefits__grid_background-gray{
+    background: #f0f2fa;
+    color: #a7abbe;
+}
+.form-login__form__grid__item__label_margin-y-10{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.customized-benefits__item__coverage span{
+    margin-bottom: 15px;
+}
+.customized-benefits__grid_margin-top-30{
+    margin-top: 30px;
+}
+.customized-benefits__item__coverage__amount__chip span{
+    margin-bottom: 0!important;
+}
+.customized-benefits__item__coverage__amount__chip{
+    background-color: #83cc5e!important;
+}

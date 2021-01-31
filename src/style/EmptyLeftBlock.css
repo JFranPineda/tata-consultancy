@@ -15,3 +15,13 @@
     position: absolute;
     z-index: -1;
 }
+.empty-left-block__background:after{
+    content: "";
+    width: 320px;
+    height: 450px;
+    background: url("../assets/Illustration-1.png") no-repeat;
+    top: 85px;
+    left: 138px;
+    position: absolute;
+    display: inline-block;
+}

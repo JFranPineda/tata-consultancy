@@ -30,6 +30,16 @@
     position: absolute;
     z-index: -1;
 }
+.left-block__background:after{
+    content: "";
+    width: 320px;
+    height: 450px;
+    background: url("../assets/Illustration-1.png") no-repeat;
+    top: 85px;
+    right: 45px;
+    position: absolute;
+    display: inline-block;
+}
 .left-block_color_white{
     color: white;
 }

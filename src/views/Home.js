@@ -2,6 +2,19 @@ import React from "react";
 import { Link } from "@reach/router";
 import { Button, Grid } from "@material-ui/core";
 
+const CustomLink = (props) => {
+    const { link, message } = props;
+    return (
+        <Grid className="home__row" xs={8}>
+            <Link to={link} className="header__link">
+                <Button className="home__row__button" variant="contained" color="primary">
+                    {message}
+                </Button>
+            </Link>
+        </Grid>
+    )
+};
+
 const Login = () => {
 
     return (
@@ -17,34 +30,10 @@ const Login = () => {
                 <span className="home__row__text home__row__text_bold">Jesus Pineda</span>
                 </span>
             </Grid>
-            <Grid className="home__row" xs={8}>
-                <Link to="/login" className="header__link">
-                    <Button className="home__row__button" variant="contained" color="primary">
-                        Obtén tu seguro
-                    </Button>
-                </Link>
-            </Grid>
-            <Grid className="home__row" xs={8}>
-                <Link to="/add-relatives" className="header__link">
-                    <Button className="home__row__button" variant="contained" color="primary">
-                        Datos Personales
-                    </Button>
-                </Link>
-            </Grid>
-            <Grid className="home__row" xs={8}>
-                <Link to="/select-plan" className="header__link">
-                    <Button className="home__row__button" variant="contained" color="primary">
-                        Elige tu plan
-                    </Button>
-                </Link>
-            </Grid>
-            <Grid className="home__row" xs={8}>
-                <Link to="/thank-you" className="header__link">
-                    <Button className="home__row__button" variant="contained" color="primary">
-                        Gracias
-                    </Button>
-                </Link>
-            </Grid>
+            <CustomLink link="/login" message="Obtén tu seguro" />
+            <CustomLink link="/add-relatives" message="Datos Personales" />
+            <CustomLink link="/select-plan" message="Elige tu plan" />
+            <CustomLink link="/thank-you" message="Gracias" />
         </Grid>
     );
 };

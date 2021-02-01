@@ -1,4 +1,5 @@
 {
+  "homepage": "https://jfranpineda.github.io/tata-consultancy/",
   "name": "tata-consultancy",
   "version": "1.0.0",
   "description": "Cotizador Seguro de Salud",
@@ -23,6 +24,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^1.7.0",
+    "gh-pages": "^3.1.0",
     "parcel-bundler": "^1.12.4",
     "prettier": "^1.19.1"
   },
@@ -32,7 +34,9 @@
     "dev:mock": "cross-env PET_MOCK=mock parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -46,6 +50,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JFranPineda/tata-consultancy/issues"
-  },
-  "homepage": "https://github.com/JFranPineda/tata-consultancy#readme"
+  }
 }

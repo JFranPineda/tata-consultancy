@@ -3,7 +3,7 @@ import EmptyLeftBlock from "../components/EmptyLeftBlock";
 import FormRelatives from "../components/FormRelatives";
 import Grid from '@material-ui/core/Grid';
 
-const Login = () => {
+const Relatives = () => {
 
     return (
         <div className="login">
@@ -19,4 +19,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default Relatives;

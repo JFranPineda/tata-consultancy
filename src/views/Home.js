@@ -15,7 +15,7 @@ const CustomLink = (props) => {
     )
 };
 
-const Login = () => {
+const Home = () => {
 
     return (
         <Grid className="home">
@@ -38,4 +38,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default Home;
